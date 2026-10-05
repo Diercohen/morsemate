@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- user-scalable=no must be set otherwise app scale breaks. lighthouse score is 91%.  -->
+    <meta name="viewport" content="user-scalable=no" />
+    <title>Morse - Learn</title>
+    <link rel="stylesheet" href="build/style.css" />
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/fonts/poppins.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#ef4136" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+    </script>
+  </head>
+  <body>
+    <input
+      id="input"
+      aria-label="morse code input"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+    />
+    <div id="landscape">Please rotate back to portrait mode.</div>
+    <div id="fallback">
+      This experiment is not availble on this browser. Try it on
+      <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a
+      >.
+    </div>
+    <div id="fallback-mobile">
+      Sorry, this experiment is not availble on this device or OS version.
+    </div>
+    <div id="loader">
+      <svg class="circular">
+        <circle
+          class="path"
+          cx="50"
+          cy="50"
+          r="20"
+          fill="none"
+          stroke-miterlimit="10"
+        ></circle>
+      </svg>
+    </div>
+    <a id="button">?</a>
+    <div id="overlay">
+      <div class="wrapper">
+        <div class="title">About</div>
+        <p>
+          We created this trainer to make the process of learning Morse code
+          more fun and to encourage people to keep at it. Give it a try if
+          you’ve set up Morse code for Gboard and are ready to learn Morse.
+        </p>
+        <p>
+          This experiment is part of a larger project to support Morse code for
+          accessible communication. Learn more about it at
+          <a href="http://morse.withgoogle.com/" target="_blank">g.co/morse</a>.
+        </p>
+        <p>Built by Use All Five and<br />Google Creative Lab.</p>
+        <img src="assets/images/badge.svg" />
+      </div>
+    </div>
+    <img class="desktop-badge" src="assets/images/badge.svg" />
+    <script src="third-party/phaser/phaser.min.js"></script>
+    <script src="build/bundle.js"></script>
+
+    <script>
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+    </script>
+  </body>
+</html>
