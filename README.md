@@ -20,14 +20,14 @@
 
 **Morse Mate** is a playful Morse code trainer that installs like a real app on your phone. Every letter comes with a picture that helps you remember it: **E** is an *Eye*, **T** is a piece of *Tape*, **A** is *Archery*. Tap the dots and dashes, watch the screen fill with color, and before you know it you're typing in Morse.
 
-It's an offline copy of Google's [Morse Typing Trainer](https://morse.withgoogle.com/learn/), turned into a Progressive Web App. Once it's loaded, it never needs the internet again.
-
 ## 📱 Screenshots
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/e4b3f271-c5e6-41cb-97cb-f88ecbd8d4f6" width="300" muted autoplay loop playsinline></video>
+  <a href="https://github.com/user-attachments/assets/e4b3f271-c5e6-41cb-97cb-f88ecbd8d4f6"><img src="screenshots/intro.gif" width="300" alt="Morse Mate demo" /></a>
   <p>🔗 <b>Live demo:</b> <a href="https://diercohen.github.io/morsemate/">diercohen.github.io/morsemate</a></p>
 </div>
+
+It's an offline copy of Google's [Morse Typing Trainer](https://morse.withgoogle.com/learn/), turned into a Progressive Web App. Once it's loaded, it never needs the internet again.
 
 ## ✨ Features
 
