@@ -27,8 +27,6 @@
   <p>🔗 <b>Live demo:</b> <a href="https://diercohen.github.io/morsemate/">diercohen.github.io/morsemate</a></p>
 </div>
 
-It's an offline copy of Google's [Morse Typing Trainer](https://morse.withgoogle.com/learn/), turned into a Progressive Web App. Once it's loaded, it never needs the internet again.
-
 ## ✨ Features
 
 - 🔤 **All of it:** the 26 letters, the numbers 0 to 9 and punctuation, each with its own animated picture
@@ -75,6 +73,8 @@ morsemate/
 > 🔄 **Updating?** Change `CACHE = "morse-v1"` in `sw.js` (for example to `morse-v2`) so installed copies download the new files.
 
 ## 🙏 Credits
+
+It's an offline copy of Google's [Morse Typing Trainer](https://morse.withgoogle.com/learn/), turned into a Progressive Web App. Once it's loaded, it never needs the internet again.
 
 The original trainer was built by **[Use All Five](https://www.useallfive.com/)** and **Google Creative Lab** as part of [Morse code for accessible communication](https://morse.withgoogle.com/). All of the original code, artwork and sounds belong to them. Morse Mate only packages the trainer as an offline PWA.
 
