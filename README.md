@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/icons/icon-512.png" width="120" alt="MorseMate icon" />
+<img src="assets/icons/icon-512.png" width="120" alt="Morse Mate icon" />
 
-# MorseMate
+# Morse Mate
 
 ### · — &nbsp; Learn Morse code in minutes, anywhere, even offline &nbsp; — ·
 
@@ -18,25 +18,15 @@
 
 ---
 
-**MorseMate** is a playful Morse code trainer that installs like a real app on your phone. Every letter comes with a picture that helps you remember it: **E** is an *Eye*, **T** is a piece of *Tape*, **A** is *Archery*. Tap the dots and dashes, watch the screen fill with color, and before you know it you're typing in Morse.
+**Morse Mate** is a playful Morse code trainer that installs like a real app on your phone. Every letter comes with a picture that helps you remember it: **E** is an *Eye*, **T** is a piece of *Tape*, **A** is *Archery*. Tap the dots and dashes, watch the screen fill with color, and before you know it you're typing in Morse.
 
 It's an offline copy of Google's [Morse Typing Trainer](https://morse.withgoogle.com/learn/), turned into a Progressive Web App. Once it's loaded, it never needs the internet again.
 
 ## 📱 Screenshots
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/1-home.png" width="220" /><br /><sub><b>Get started</b></sub></td>
-    <td align="center"><img src="screenshots/2-tutorial.png" width="220" /><br /><sub><b>Dots + dashes = letters</b></sub></td>
-    <td align="center"><img src="screenshots/3-pictures.png" width="220" /><br /><sub><b>Pictures help you remember</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/4-lesson.png" width="220" /><br /><sub><b>E is for Eye</b></sub></td>
-    <td align="center"><img src="screenshots/5-progress.png" width="220" /><br /><sub><b>The color fills as you learn</b></sub></td>
-    <td align="center"><img src="screenshots/6-level-up.png" width="220" /><br /><sub><b>Level up</b></sub></td>
-  </tr>
-</table>
+  <video src="https://github.com/user-attachments/assets/e4b3f271-c5e6-41cb-97cb-f88ecbd8d4f6" width="300" muted autoplay loop playsinline></video>
+  <p>🔗 <b>Live demo:</b> <a href="https://diercohen.github.io/morsemate/">diercohen.github.io/morsemate</a></p>
 </div>
 
 ## ✨ Features
@@ -57,7 +47,7 @@ It's an offline copy of Google's [Morse Typing Trainer](https://morse.withgoogle
    - **Desktop (Chrome / Edge):** click the install icon in the address bar
 3. That's it. Turn on airplane mode and it still works. ✈️
 
-> 💡 On a phone, MorseMate is meant to be used with the **Morse keyboard in [Gboard](https://support.google.com/accessibility/android/answer/9011881)**. On a desktop, choose **"Play a demo on desktop"** and use the on-screen dot and dash keys.
+> 💡 On a phone, Morse Mate is meant to be used with the **Morse keyboard in [Gboard](https://support.google.com/accessibility/android/answer/9011881)**. On a desktop, choose **"Play a demo on desktop"** and use the on-screen dot and dash keys.
 
 ## 🛠️ Run it locally
 
@@ -86,7 +76,7 @@ morsemate/
 
 ## 🙏 Credits
 
-The original trainer was built by **[Use All Five](https://www.useallfive.com/)** and **Google Creative Lab** as part of [Morse code for accessible communication](https://morse.withgoogle.com/). All of the original code, artwork and sounds belong to them. MorseMate only packages the trainer as an offline PWA.
+The original trainer was built by **[Use All Five](https://www.useallfive.com/)** and **Google Creative Lab** as part of [Morse code for accessible communication](https://morse.withgoogle.com/). All of the original code, artwork and sounds belong to them. Morse Mate only packages the trainer as an offline PWA.
 
 <div align="center">
 

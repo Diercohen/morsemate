@@ -1,6 +1,6 @@
 {
-  "name": "Morse - Learn",
-  "short_name": "Morse",
+  "name": "Morse Mate",
+  "short_name": "Morse Mate",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",

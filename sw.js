@@ -1,4 +1,4 @@
-const CACHE = "morse-v1";
+const CACHE = "morse-v2";
 const FILES = [
   "./",
   "index.html",
