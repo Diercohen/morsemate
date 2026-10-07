@@ -1,4 +1,4 @@
-const CACHE = "morse-v2";
+const CACHE = "morse-v4";
 const FILES = [
   "./",
   "index.html",
@@ -74,10 +74,9 @@ const FILES = [
   "assets/sounds/dot.mp3",
   "assets/videos/intro-desktop.mp4",
   "assets/videos/intro.mp4",
-  "build/bundle.js",
-  "build/style.css",
+  "build/index.css",
+  "build/index.js",
   "manifest.webmanifest",
-  "third-party/phaser/phaser.min.js",
 ];
 
 self.addEventListener("install", (e) => {
